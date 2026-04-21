@@ -16,6 +16,8 @@ VALIDATION() {
         echo "you are going to install $2 ...."
     else 
         echo "$2 is already installed..."
+        exit 1
+    fi
 }
 
 dnf list installed mysql
