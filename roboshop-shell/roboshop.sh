@@ -19,7 +19,6 @@ do
             --image-id $AMI_ID \
             --count 1 \
             --instance-type $INSTANCE_TYPE \
-            --key-name $KEY_NAME \
             --security-group-ids $SECURITY_GROUP_ID \
             --subnet-id $SUBNET_ID \
             --associate-public-ip-address \
@@ -32,7 +31,6 @@ do
             --image-id $AMI_ID \
             --count 1 \
             --instance-type $INSTANCE_TYPE \
-            --key-name $KEY_NAME \
             --security-group-ids $SECURITY_GROUP_ID \
             --subnet-id $SUBNET_ID \
             --no-associate-public-ip-address \
